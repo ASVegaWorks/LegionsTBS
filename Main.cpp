@@ -61,7 +61,7 @@ int main() {
 
 			cout << "\n\n" << right << setw(123) << "Invalid user input." << endl;
 			cin.clear();
-			cin.ignore(256,'\n'); // ensures only 1 character read, ignore until new line
+			cin.ignore(256,'\n');
 			break;
 		}
 	} while (menuInput != 3);
